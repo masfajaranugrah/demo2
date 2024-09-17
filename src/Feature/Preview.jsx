@@ -4,7 +4,7 @@ import kutip from '@/assets/images/left.png'
 const Preview = () => {
   return (
     <div>
-      <section className="relative md:py-24 py-16" id="review">
+      <section className="relative md:py-24 py-16" id="testimoni">
         <div className="container relative">
           <div className=" pb-6 text-center">
             <h3 className="font-semibold text-2xl leading-normal mb-4">

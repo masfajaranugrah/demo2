@@ -42,23 +42,26 @@ const Navbar = () => {
           >
             <ul className="navbar-nav nav-light sidebar-nav" id="navbar-navlist">
               <li className="nav-item">
-                <a className="nav-link text-[18px] font-bold active" href="#home" onClick={handleLinkClick}>Beranda</a>
+                <a className="nav-link text-[18px] font-bold active" href="/home" onClick={handleLinkClick}>Beranda</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-[18px] font-bold" href="#about" onClick={handleLinkClick}>Tentang Kami</a>
+                <a className="nav-link text-[18px] font-bold" href="/about" onClick={handleLinkClick}>Tentang Kami</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-[18px] font-bold" href="#visi&misi" onClick={handleLinkClick}>Visi & Misi</a>
+                <a className="nav-link text-[18px] font-bold" href="/services" onClick={handleLinkClick}>Services</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-[18px] font-bold" href="#review" onClick={handleLinkClick}>Testimonial</a>
+                <a className="nav-link text-[18px] font-bold" href="/visi&misi" onClick={handleLinkClick}>Visi & Misi</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-[18px] font-bold" href="#pricing" onClick={handleLinkClick}>Pricing</a>
+                <a className="nav-link text-[18px] font-bold" href="/testimoni" onClick={handleLinkClick}>Testimonial</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-[18px] font-bold" href="/pricing" onClick={handleLinkClick}>Pricing</a>
               </li>
           
               <li className="nav-item">
-                <a className="nav-link text-[18px] font-bold" href="#contact" onClick={handleLinkClick}>Contact us</a>
+                <a className="nav-link text-[18px] font-bold" href="/contact" onClick={handleLinkClick}>Contact us</a>
               </li>
             </ul>
           </div>
