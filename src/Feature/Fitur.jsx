@@ -30,7 +30,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 
@@ -49,7 +49,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 
@@ -68,7 +68,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right my-10"></i></a>
                             </div>
                         </div>
 
@@ -87,7 +87,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 
@@ -106,7 +106,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 
@@ -125,7 +125,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 
@@ -144,7 +144,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 
@@ -163,7 +163,7 @@ const Fitur = () => {
                             <p class="text-slate-400 mt-3">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
 
                             <div class="mt-6">
-                                <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                <a href="" class="text-teal-500">Read More <i class="fa-solid fa-arrow-right py-10"></i></a>
                             </div>
                         </div>
 

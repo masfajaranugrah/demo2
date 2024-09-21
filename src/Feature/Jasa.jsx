@@ -21,7 +21,7 @@ const Jasa = () => {
                         </div>
 
                         <ul class="list-none text-slate-400">
-                            <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>We offers a free month of service for new customers.</span></li>
+                            <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>We offers a free month of service for new customers.</span></li>
                         </ul>
                         <a href="" class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500/5 hover:bg-teal-500 text-teal-500 hover:text-white w-full mt-5">Free Demo</a>
                     </div> 
@@ -36,8 +36,8 @@ const Jasa = () => {
                         </div>
 
                         <ul class="list-none text-slate-400">
-                            <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>We offers a free 7 days of service for new customers.</span></li>
-                            <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Our Talented & Experienced Marketing Agency</span></li>
+                            <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>We offers a free 7 days of service for new customers.</span></li>
+                            <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Our Talented & Experienced Marketing Agency</span></li>
                         </ul>
                         <a href="" class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500/5 hover:bg-teal-500 text-teal-500 hover:text-white w-full mt-5">Subscribe Now</a>
                     </div> 
@@ -54,16 +54,16 @@ const Jasa = () => {
                             </div>
 
                             <ul class="list-none text-slate-400">
-                                <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>We offers a free 14 days of service for new customers.</span></li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Full Access</span></li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Source Files</span></li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Free Appointments</span></li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Enhanced Security</span></li>
-                                <li class="mb-1 flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Free Installment</span></li>
+                                <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>We offers a free 14 days of service for new customers.</span></li>
+                                <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Full Access</span></li>
+                                <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Source Files</span></li>
+                                <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Free Appointments</span></li>
+                                <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Enhanced Security</span></li>
+                                <li class="mb-1 flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Free Installment</span></li>
                             </ul>
                             <a href="" class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white w-full mt-5">Buy Now</a>
 
-                            <p class="text-sm text-slate-400 mt-1.5"><span class="text-red-600">*</span>T&C Apply</p>
+                            <p class="text-sm text-slate-400 .5"><span class="text-red-600">*</span>T&C Apply</p>
                         </div>
                     </div> 
 
@@ -74,7 +74,7 @@ const Jasa = () => {
                             <p class="text-slate-400 mb-5">Pricing plan will be as per client or company requirements</p>
 
                             <ul class="list-none">
-                                <li class="mb-1 font-medium flex"><i class="mdi mdi-check-circle-outline text-teal-500 text-[20px] align-middle me-2"></i> <span>Custom Pricing</span></li>
+                                <li class="mb-1 font-medium flex"><i class="fa-solid fa-circle-check text-teal-500 text-[20px]  align-middle me-2"></i> <span>Custom Pricing</span></li>
                             </ul>
                             <a href="" class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500/5 hover:bg-teal-500 text-teal-500 hover:text-white w-full mt-5">Talk to us</a>
                         </div>

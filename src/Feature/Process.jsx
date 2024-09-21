@@ -25,7 +25,7 @@ const Process = () => {
                 </p>
                 <div className="mt-4">
                   <a href="#" className="text-teal-500">
-                    Learn More <i className="mdi mdi-chevron-right align-middle"></i>
+                    Learn More <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const Process = () => {
                 </p>
                 <div className="mt-4">
                   <a href="#" className="text-teal-500">
-                    Discover More <i className="mdi mdi-chevron-right align-middle"></i>
+                    Discover More <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>

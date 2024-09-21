@@ -24,15 +24,15 @@ const Preview = () => {
                                 <div class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900   before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
                                 
                                 <div className='flex justify-center items-center'>
-                                    <img src={kutip} alt="images" className='w-10 h-10 ' />
+                                   <i class="fa-solid fa-quote-right text-[40px] text-[#14b8a6]"></i>
                                     </div>
                                     <p class="text-slate-400">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
                                     <ul class="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
                                   
                                     </ul>
                                 </div>
@@ -51,17 +51,18 @@ const Preview = () => {
                             <div class="cursor-e-resize">
                                 <div class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900   before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
                                 <div className='flex justify-center items-center'>
-                                    <img src={kutip} alt="images" className='w-10 h-10 ' />
+                                                                   <i class="fa-solid fa-quote-right text-[40px] text-[#14b8a6]"></i>
+
                                     </div>
                                     <p class="text-slate-400">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "
 
 </p>
                                     <ul class="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
                                   
                                     </ul>
                                 </div>
@@ -86,18 +87,19 @@ const Preview = () => {
                             <div class="cursor-e-resize">
                                 <div class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900   before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
                                 <div className='flex justify-center items-center'>
-                                    <img src={kutip} alt="images" className='w-10 h-10 ' />
+                                                                   <i class="fa-solid fa-quote-right text-[40px] text-[#14b8a6]"></i>
+
                                     </div>
 
                                     <p class="text-slate-400">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "
 
 </p>
                                     <ul class="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
-                                        <li class="inline"><IoIosStar class="mdi mdi-star"/></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
+                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
                                   
                                     </ul>
                                 </div>
