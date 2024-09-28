@@ -10,7 +10,7 @@ const BackToTopButton = () => {
       href="#"
       onClick={topFunction}
       id="back-to-top"
-      className="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 w-12 h-12 bg-teal-500 text-white flex items-center justify-center"
+      className="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 w-12 h-12 bg-[#2a52c3] text-white flex items-center justify-center"
     >
       <FaArrowUp />
     </a>

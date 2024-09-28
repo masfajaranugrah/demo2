@@ -1,118 +1,84 @@
-import React from 'react';
-import { IoIosStar } from "react-icons/io";
-import kutip from '@/assets/images/left.png'
+import React, { useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'; // Import Swiper styles
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 const Preview = () => {
+  const swiperRef = useRef(null);
+  const testimonials = [
+    {
+      quote: "Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. Lorem Ipsum has only limited suitability as a visual ",
+      name: "Smith Vodka",
+      role: "Manager",
+      image: "https://shreethemes.in/upcover/layouts/assets/images/team/03.jpg",
+    },
+    {
+      quote: "It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. only fragments of the original text remain in ",
+      name: "Smith Vodka",
+      role: "Manager",
+      image: "https://shreethemes.in/upcover/layouts/assets/images/team/04.jpg",
+    },
+    {
+      quote: "It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time",
+      name: "Smith Vodka",
+      role: "Manager",
+      image: "https://shreethemes.in/upcover/layouts/assets/images/team/04.jpg",
+    },
+  ];
+
   return (
     <div>
       <section className="relative md:py-24 py-16" id="testimoni">
         <div className="container relative">
-          <div className=" pb-6 text-center">
+          <div className="pb-6 text-center">
             <h3 className="font-semibold text-2xl leading-normal mb-4">
               What Our Users Say
             </h3>
-
             <p className="text-slate-400 max-w-xl mx-auto">
               This is just a simple text made for this unique and awesome template, you can replace it with any text.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6">
-            {/* Testimonial Card 1 */}
-  
-<div class="tiny-slide text-center tns-item"  aria-hidden="true" tabindex="-1">
-                            <div class="cursor-e-resize">
-                                <div class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900   before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
-                                
-                                <div className='flex justify-center items-center'>
-                                   <i class="fa-solid fa-quote-right text-[40px] text-[#14b8a6]"></i>
-                                    </div>
-                                    <p class="text-slate-400">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
-                                    <ul class="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                  
-                                    </ul>
-                                </div>
-                                
-                                <div class="text-center mt-5">
-                                    <img src="https://shreethemes.in/upcover/layouts/assets/images/team/03.jpg" class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt=""/>
-                                    <h6 class="mt-2 font-semibold">Smith Vodka</h6>
-                                    <span class="text-slate-400 text-sm">Manager</span>
-                                </div>
-                            </div>
-                        </div>
-
-            {/* Testimonial Card 2 */}
-   
-<div class="tiny-slide text-center tns-item"  aria-hidden="true" tabindex="-1">
-                            <div class="cursor-e-resize">
-                                <div class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900   before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
-                                <div className='flex justify-center items-center'>
-                                                                   <i class="fa-solid fa-quote-right text-[40px] text-[#14b8a6]"></i>
-
-                                    </div>
-                                    <p class="text-slate-400">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "
-
-</p>
-                                    <ul class="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                  
-                                    </ul>
-                                </div>
-                                
-                                <div class="text-center mt-5">
-                                    <img src="https://shreethemes.in/upcover/layouts/assets/images/team/04.jpg" class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt=""/>
-                                    <h6 class="mt-2 font-semibold">Smith Vodka</h6>
-                                    <span class="text-slate-400 text-sm">Manager</span>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-            {/* Testimonial Card 3 */}
-          
-<div class="tiny-slide text-center tns-item"  aria-hidden="true" tabindex="-1">
-                            <div class="cursor-e-resize">
-                                <div class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900   before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
-                                <div className='flex justify-center items-center'>
-                                                                   <i class="fa-solid fa-quote-right text-[40px] text-[#14b8a6]"></i>
-
-                                    </div>
-
-                                    <p class="text-slate-400">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "
-
-</p>
-                                    <ul class="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                        <li class="inline"><i class="fa-solid fa-star"></i></li>
-                                  
-                                    </ul>
-                                </div>
-                                
-                                <div class="text-center mt-5">
-                                    <img src="https://shreethemes.in/upcover/layouts/assets/images/team/04.jpg" class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt=""/>
-                                    <h6 class="mt-2 font-semibold">Smith Vodka</h6>
-                                    <span class="text-slate-400 text-sm">Manager</span>
-                                </div>
-                            </div>
-                        </div>
- 
+          <Swiper
+            ref={swiperRef}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+             className="mySwiper2"
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            modules={[Autoplay, Pagination, Navigation]}
+          >
+            {testimonials.map((testimonial, index) => (
+        <SwiperSlide key={index} className="text-center">
+        <div className="content relative rounded shadow-lg my-20 p-6 bg-white dark:bg-slate-900 card">
+          <div className="flex justify-center items-center">
+            <i className="fa-solid fa-quote-right text-[40px] text-[#2a52c3]"></i>
           </div>
+          <p className="text-slate-400">"{testimonial.quote}"</p>
+          <ul className="list-none mb-0 text-amber-400 mt-3 flex justify-center items-center">
+            <li className="inline"><i className="fa-solid fa-star"></i></li>
+            <li className="inline"><i className="fa-solid fa-star"></i></li>
+            <li className="inline"><i className="fa-solid fa-star"></i></li>
+            <li className="inline"><i className="fa-solid fa-star"></i></li>
+            <li className="inline"><i className="fa-solid fa-star"></i></li>
+          </ul>
+          <div className="text-center mt-5">
+            <img src={testimonial.image} className="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt="" />
+            <h6 className="mt-2 font-semibold">{testimonial.name}</h6>
+            <span className="text-slate-400 text-sm">{testimonial.role}</span>
+          </div>
+        </div>
+       </SwiperSlide>
+      
+            ))}
+          </Swiper>
+
+      
         </div>
       </section>
     </div>

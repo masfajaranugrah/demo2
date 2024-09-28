@@ -24,8 +24,8 @@ const Process = () => {
                   Our vision is to lead with creativity, technology, and strategic insight, driving the next wave of innovation to unlock new opportunities for growth.
                 </p>
                 <div className="mt-4">
-                  <a href="#" className="text-teal-500">
-                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                  <a href="#" className="text-[#2a52c3]">
+                    Learn More <i className="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
@@ -40,8 +40,8 @@ const Process = () => {
                   Our mission is to equip businesses with the tools and strategies needed to thrive in an ever-evolving digital landscape, empowering them to achieve their goals.
                 </p>
                 <div className="mt-4">
-                  <a href="#" className="text-teal-500">
-                    Discover More <i class="fa-solid fa-arrow-right"></i>
+                  <a href="#" className="text-[#2a52c3]">
+                    Discover More <i className="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>

@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="navbar" id="navbar">
         <div className="container relative flex flex-wrap items-center justify-between">
           <a className="navbar-brand md:me-8 nav-items" href="index.html">
-            <h1 className='text-[30px] nav-link font-bold'>Demo1</h1>
+            <h1 className='text-[30px] nav-link font-bold'>Demo-1</h1>
           </a>
 
           <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
